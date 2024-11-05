@@ -4,22 +4,24 @@
 <!-- open된 pr 확인하는 버튼 -->
 <a href="https://github.com/soyeon1806/AlgoDuo/pulls" style="display: inline-flex; align-items: center; text-decoration: none;">
     <img src="images/pr_button.png" alt="PR 버튼" width="70" style="margin-right: 15px;"/>
-    <span style="color: pink; font-size: 1.2em;">오픈된 PR 수: <strong><!--PR_COUNT--></strong></span>
+    <span style="font-size: 1.2em;">오픈된 PR 수: <strong><!--PR_COUNT--></strong></span>
 </a>
 
+<br/>
 
 <!-- 풀고 싶은 문제 등록하는 버튼 -->
 <a href="https://github.com/soyeon1806/AlgoDuo/issues/new?title=[플랫폼]%20문제이름%20/%20레벨&body=⭐%20제목%20:%20[플랫폼]%20문제_이름%20/%20레벨%0A%20%20%20%20%20%20☑%20[BOJ]%20:%20백준%0A%20%20%20%20%20%20☑%20[PGS]%20:%20프로그래머스%0A%20%20%20%20%20%20☑%20[ETC]%20:%20그%20외%20사이트%0A%0A⭐%20라벨%20:%20알고리즘 분류%0A%20%20%20%20(없는%20라벨은%20새로%20등록하기)%0A%0A⭐%20문제%20링크%3A" style="display: inline-flex; align-items: center; text-decoration: none;">
     <img src="images/issue_button.png" alt="문제 등록 버튼" width="70" style="margin-right: 15px;"/>
-    <span style="color: pink; font-size: 1.2em;">문제 등록하기</span>
+    <span style="font-size: 1.2em;">문제 등록하기</span>
 </a>
 
+<br/>
 
 <!-- 이번주 문제 확인하는 버튼 -->
 <a href="https://github.com/soyeon1806/AlgoDuo/issues" 
    style="display: inline-flex; align-items: center; text-decoration: none;">
     <img src="images/issue_check_button.png" alt="문제 확인 버튼" width="70" style="margin-right: 15px;"/>
-    <span style="color: pink; font-size: 1.2em;">이번주 문제 확인하기</span>
+    <span style="font-size: 1.2em;">이번주 문제 확인하기</span>
 </a>
 
 <br/><br/>
