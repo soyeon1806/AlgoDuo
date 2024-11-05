@@ -1,0 +1,31 @@
+name: Update README with PR Count
+
+on:
+  schedule:
+    - cron: "0 * * * *" # 매 시간마다 업데이트
+  workflow_dispatch: # 수동으로 실행할 수 있도록 추가
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Fetch PR Count
+        id: pr_count
+        run: |
+          PR_COUNT=$(curl -s "https://api.github.com/repos/soyeon1806/AlgoDuo/pulls?state=open" | jq '. | length')
+          echo "PR_COUNT=${PR_COUNT}" >> $GITHUB_ENV
+
+      - name: Update README
+        run: |
+          sed -i "s/<!--PR_COUNT-->/${{ env.PR_COUNT }}/g" README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update README with PR count"
+          git push
