@@ -1,10 +1,10 @@
 # 💻 AlgoDuo
 
 
-<!-- open된 pr 확인하는 버튼 -->
+<!-- PR 확인하는 버튼 -->
 <a href="https://github.com/soyeon1806/AlgoDuo/pulls" style="display: inline-flex; align-items: center; text-decoration: none;">
     <img src="images/pr_button.png" alt="PR 버튼" width="70" style="margin-right: 15px;"/>
-    <span style="font-size: 1.2em;">오픈된 PR 수: <strong><!--PR_COUNT--></strong></span>
+    <span style="font-size: 1.2em;">PR 확인하기 <strong><!--PR_COUNT--></strong></span>
 </a>
 
 <br/>
@@ -116,6 +116,7 @@ style: 함수명 변경
 |:--  |:--  |
 | chore | 기타 작업들 |
 | comment | 주석 추가 및 오타 수정 |
+| del | 코드 및 파일 삭제 |
 | docs | README와 같은 문서 수정 |
 | feat | 소스코드 파일 추가 |
 | move | 파일 및 폴더 이동 |
