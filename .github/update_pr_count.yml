@@ -15,7 +15,7 @@ jobs:
       - name: Fetch PR Count
         id: pr_count
         run: |
-          PR_COUNT=$(curl -s "https://api.github.com/repos/soyeon1806/AlgoDuo/pulls?state=open" | jq '. | length')
+          PR_COUNT=$(curl -s "https://api.github.com/repos/soyeon1806/AlgoDuo/pulls?state=open" | grep '"url"' | wc -l)
           echo "PR_COUNT=${PR_COUNT}" >> $GITHUB_ENV
 
       - name: Update README
