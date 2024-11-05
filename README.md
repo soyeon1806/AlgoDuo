@@ -4,14 +4,14 @@
 <!-- open된 pr 확인하는 버튼 -->
 <a href="https://github.com/soyeon1806/AlgoDuo/pulls" style="display: inline-flex; align-items: center; text-decoration: none;">
     <img src="images/pr_button.png" alt="PR 버튼" width="70" style="margin-right: 15px;"/>
-    <span style="color: black; font-size: 1.2em;">오픈된 PR 수: <strong><!--PR_COUNT--></strong></span>
+    <span style="color: pink; font-size: 1.2em;">오픈된 PR 수: <strong><!--PR_COUNT--></strong></span>
 </a>
 
 
 <!-- 풀고 싶은 문제 등록하는 버튼 -->
 <a href="https://github.com/soyeon1806/AlgoDuo/issues/new?title=[플랫폼]%20문제이름%20/%20레벨&body=⭐%20제목%20:%20[플랫폼]%20문제_이름%20/%20레벨%0A%20%20%20%20%20%20☑%20[BOJ]%20:%20백준%0A%20%20%20%20%20%20☑%20[PGS]%20:%20프로그래머스%0A%20%20%20%20%20%20☑%20[ETC]%20:%20그%20외%20사이트%0A%0A⭐%20라벨%20:%20알고리즘 분류%0A%20%20%20%20(없는%20라벨은%20새로%20등록하기)%0A%0A⭐%20문제%20링크%3A" style="display: inline-flex; align-items: center; text-decoration: none;">
     <img src="images/issue_button.png" alt="문제 등록 버튼" width="70" style="margin-right: 15px;"/>
-    <span style="color: black; font-size: 1.2em;">문제 등록하기</span>
+    <span style="color: pink; font-size: 1.2em;">문제 등록하기</span>
 </a>
 
 
@@ -19,7 +19,7 @@
 <a href="https://github.com/soyeon1806/AlgoDuo/issues" 
    style="display: inline-flex; align-items: center; text-decoration: none;">
     <img src="images/issue_check_button.png" alt="문제 확인 버튼" width="70" style="margin-right: 15px;"/>
-    <span style="color: black; font-size: 1.2em;">이번주 문제 확인하기</span>
+    <span style="color: pink; font-size: 1.2em;">이번주 문제 확인하기</span>
 </a>
 
 <br/><br/>
@@ -78,13 +78,15 @@
 
 ## ⭐ 참여 방법
 
-1. 이 저장소를 `clone` 한다.
-2. 본인의 이름으로 브랜치를 생성한다.
-3. 본인의 이름으로 폴더를 생성한다.
-4. 플랫폼 별로 폴더를 생성한다.
-5. 알고리즘 풀이 후 본인의 브랜치에 `push`한다.
-6. `main` 브랜치에 `PR`을 보내 코드 리뷰를 요청한다.
-7. 스터디원에게 리뷰를 받은 후, 수정이 완료되면 `merge` 한다.
+| 단계 | 설명 |
+| --- | --- |
+| 1 | 이 저장소를 `clone` 한다. |
+| 2 | 본인의 이름으로 브랜치를 생성한다. |
+| 3 | 본인의 이름으로 폴더를 생성한다. |
+| 4 | 플랫폼 별로 폴더를 생성한다. |
+| 5 | 알고리즘 풀이 후 본인의 브랜치에 `push` 한다. |
+| 6 | `main` 브랜치에 `PR`을 보내 코드 리뷰를 요청한다. |
+| 7 | 스터디원에게 리뷰를 받은 후, 모두에게 승인이 완료되면 `merge` 한다. |
 
 
 <br/><br/>
@@ -122,6 +124,7 @@ style: 함수명 변경
 <br/>
 
 ### 📌 플랫폼
+
 | 플랫폼 | 태그 |
 |:--  |:--  |
 | 프로그래머스 | PGS |
@@ -141,6 +144,16 @@ style: 함수명 변경
 [241105] PGS 주식가격 - 소연
 [241105] BOJ 구슬 탈출 2 - 윤교
 ```
+
+<br/>
+
+### 📌 PR 주의사항
+
+- PR 템플릿에 맞게 작성한다.
+- 본인을 제외한 모두를 Reviewer에 추가한다.
+- 처음 PR에 대해서는 Label을 `Review 요청`으로 추가한다.
+- 이외에도 풀이한 문제와 관련된 Label들을 적절히 선택한다.
+- 모든 스터디원에게 리뷰를 받은 후, 코드 수정이 완료되었으면 Label을 `Merge 요청`으로 변경한다.
 
 <br/><br/>
 
