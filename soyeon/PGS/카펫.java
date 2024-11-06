@@ -1,5 +1,3 @@
-package soyeon.PGS;
-
 public class 카펫 {
     public int[] solution(int brown, int yellow) {
         int[] answer = new int[2];
