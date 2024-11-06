@@ -6,7 +6,7 @@ def divisor(n):
     return result
 
 def solution(brown, yellow):
-    for yellow_width in divisor(yellow):
-        yellow_height = yellow // yellow_width
-        if (yellow_width + 2) * (yellow_height + 2) - yellow == brown:
-            return [yellow_height + 2, yellow_width + 2]
+    for yellow_height in divisor(yellow):
+        yellow_width = yellow // yellow_height
+        if (yellow_height + 2) * (yellow_width + 2) - yellow == brown:
+            return [yellow_width + 2, yellow_height + 2]
