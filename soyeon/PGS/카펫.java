@@ -6,12 +6,11 @@ public class 카펫 {
         
         int total = yellow + brown;
         
-        for(int i = 3; i < total; i++){
-            for(int j = i; j < total; j++){                
-                if((i * j == total) && ((i - 2) * (j - 2) == yellow)){
-                    // 가로가 더 커야 하니까 순서 바꾸기
-                    answer[0] = j;
-                    answer[1] = i;
+        for(int height = 3; height < total; height++){
+            for(int width = height; width < total; width++){                
+                if((height * width == total) && ((height - 2) * (width - 2) == yellow)){
+                    answer[0] = width;
+                    answer[1] = height;
                     return answer;
                 }
             }
