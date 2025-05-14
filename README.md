@@ -11,7 +11,8 @@
         </td>
         <td align="center">
             <!-- 풀고 싶은 문제 등록하는 버튼 이미지 -->
-            <a href="https://github.com/soyeon1806/AlgoDuo/issues/new?title=[플랫폼]%20문제이름%20/%20레벨&body=⭐%20제목%20:%20[플랫폼]%20문제_이름%20/%20레벨%0A%20%20%20%20%20%20☑%20[BOJ]%20:%20백준%0A%20%20%20%20%20%20☑%20[PGS]%20:%20프로그래머스%0A%20%20%20%20%20%20☑%20[ETC]%20:%20그%20외%20사이트%0A%0A⭐%20라벨%20:%20알고리즘 분류%0A%20%20%20%20(없는%20라벨은%20새로%20등록하기)%0A%0A⭐%20문제%20링크%3A" style="text-decoration: none;">
+            <a href="https://github.com/soyeon1806/AlgoDuo/issues/new?title=[플랫폼]%20문제이름%20/%20레벨&body=⭐%20제목%20:%20[플랫폼]%20문제_이름%20/%20레벨%0A%20%20%20%20%20%20☑%20[BOJ]%20:%20백준%0A%20%20%20%20%20%20☑%20[PGS]%20:%20프로그래머스%0A%20%20%20%20%20%20☑%20[ETC]%20:%20그%20외%20사이트%0A%0A⭐%20라벨%20:%20알고리즘 분류%0A%20%20%20%20(없는%20라벨은%20새로%20등록하기)%0A%0A⭐%20문제%20링크%3A"
+            style="text-decoration: none;">
                 <img src="images/issue_button.png" alt="문제 등록 버튼" width="140" style="margin-bottom: 10px;"/>
             </a>
         </td>
@@ -41,14 +42,23 @@
     </tr>
 </table>
 
-<br/><br/>
+<br/>
+<br/>
 
 ## ⭐ 스터디 멤버
 
 <table>
  <tr>
-    <td align="center"><a href="https://github.com/soyeon1806"><img src="https://avatars.githubusercontent.com/soyeon1806" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/Hyykk"><img src="https://avatars.githubusercontent.com/Hyykk" width="130px;" alt=""></a></td>
+    <td align="center">
+      <a href="https://github.com/soyeon1806">
+        <img src="https://avatars.githubusercontent.com/soyeon1806" width="130px;" alt="">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Hyykk">
+        <img src="https://avatars.githubusercontent.com/Hyykk" width="130px;" alt="">
+      </a>
+    </td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/soyeon1806"><b>soyeon</b></a></td>
@@ -64,7 +74,8 @@
   </tr>
 </table>
 
-<br/><br/>
+<br/>
+<br/>
 
 ## ⭐ 스터디 기본 정보
 
@@ -175,7 +186,8 @@ style: 함수명 변경
 - 이외에도 풀이한 문제와 관련된 Label들을 적절히 선택한다.
 - 모든 스터디원에게 리뷰를 받은 후, 코드 수정이 완료되었으면 Label을 `Merge 요청`으로 변경한다.
 
-<br/><br/>
+<br/>
+<br/>
 
 ## ⭐ Directory 구조
 ```
